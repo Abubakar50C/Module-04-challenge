@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/cs2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 body{
     display: flex;
@@ -12,4 +12,36 @@ body{
     justify-content: center;
     min-height: 100vh;
     background: #a7a0a7;
+    
+}
+.wrapper{
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+}
+.wrapper h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 25px;
+    border-bottom: 1px solid #8cdeda;
+}
+.wrapper .content{
+    margin: 25px 25px 35px;
+
+}
+.content .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputs input{
+    height: 57px;
+    width:  56px;
+    margin: 4px;
+    background: none;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+.inputs input:first-child{
+    margin-right: 0px;
 }
