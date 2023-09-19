@@ -23,7 +23,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     padding: 20px 25px;
-    border-bottom: 1px solid #8cdeda;
+    border-bottom: 1px solid #a7a0a7;
 }
 .wrapper .content{
     margin: 25px 25px 35px;
@@ -37,11 +37,33 @@ body{
 .inputs input{
     height: 57px;
     width:  56px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
     margin: 4px;
+    color: #a7a0a7;
     background: none;
     border: 1px solid #b5b5b5;
     border-radius: 5px;
 }
 .inputs input:first-child{
-    margin-right: 0px;
+    margin-left: 0px;
+}
+.content .details{
+    margin: 20px 0 25px;
+}
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.content .reset-btn{
+    width: 100%;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background: #a7a0a7;
 }
